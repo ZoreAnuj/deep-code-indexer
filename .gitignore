@@ -1,0 +1,38 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+.env
+*.db
+*.sqlite
+*.sqlite3
+.srclight/
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+*.log
+.DS_Store
+Thumbs.db
+.mcpregistry_*
+.playwright-mcp/
+*.png
+mcp-publisher
+
+# CLAUDE.md is private — golden copy in Vault only
+CLAUDE.md
+
+# Cursor rules are private — golden copy in Vault, symlink in repo
+.cursor/rules
+
+# Plans and roadmaps stay in Vault; do not commit
+PLAN.md
+.claude/
